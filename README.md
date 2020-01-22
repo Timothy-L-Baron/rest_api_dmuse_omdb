@@ -9,7 +9,7 @@ Objectives:
 
 Currently this program:
 
-1) takes imput from the user (up to 5 words - but haven't limited this with code yet)
+1) takes imput from the user (up to 5 words - but haven't limited this with code yet - 'topic' key in OMDB is the limiter)
 2) sends input to datamuse for 'related topic word(s)'
 3) it returns the related topic word(s) and runs it through OMDB to find a title with the topic word in it
 4) it returns title, actor, and years to user
