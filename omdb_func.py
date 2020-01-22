@@ -55,7 +55,7 @@ def fetch_requests_year_omdb(word, year):
         except:
             print("Your movie year returned no extra movie results.\n")
             quit()
-    print('\nAnother movie from that year is: "{}" \n\nStarring: {}.\n'.format(title_info, actor_info))
+    print('\nAnother movie from ' + year_info + ' is: "{}" \n\nStarring: {}.\n'.format(title_info, actor_info))
     print('Plot: {}\n'.format(plot_info))
     #return single_info
     #print(year_info)
