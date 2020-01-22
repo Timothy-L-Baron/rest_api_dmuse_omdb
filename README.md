@@ -5,6 +5,7 @@ Objectives:
 2) become familiar with manipulating/using resulting data
 3) use some resulting data to search again and get more results
 4) prepare basic documentation for the program
+5) make sure thee are error messages or quits so that the user does not get error messages
 
 Currently this program:
 
