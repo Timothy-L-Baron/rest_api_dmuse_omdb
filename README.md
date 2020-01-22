@@ -1,5 +1,8 @@
 # rest_api_dmuse_omdb
 
+*if you don't have the requests module, one way you may be able to 
+install it is using 'sudo pip3 install requests' on the root level command line
+
 Objectives:
 1) become familiar with REST API requests - Datamuse and OMDB in this case
 2) become familiar with manipulating/using resulting data
