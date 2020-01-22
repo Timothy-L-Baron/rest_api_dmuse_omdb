@@ -4,6 +4,7 @@ Objectives:
 1) become familair with REST API requests - Datamuse and OMDB in this case
 2) become familiar with manipulating/using resulting data
 3) use some resulting data to search again and get more results
+4) prepare basic documentation for the program
 
 Currently this program:
 
