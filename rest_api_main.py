@@ -29,4 +29,4 @@ get_year = omdb_func.fetch_requests_title_omdb(return_word)
 
 #Put year and return title of movie back into OMDB for other movies from that year
 
-omdb_func.fetch_requests_year_omdb(return_word, 2002)
+omdb_func.fetch_requests_year_omdb(return_word, get_year)

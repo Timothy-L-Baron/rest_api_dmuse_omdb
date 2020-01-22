@@ -18,15 +18,18 @@ def fetch_requests_title_omdb(word):
     #Language, Country, Awards, Ratings
     while True:
         try:
-            title_info = format_request['Title']
+            title_info = format_request['Title']#[random.randint(1,len(format_request)-1)]
             actor_info = format_request['Actors']
             year_info = format_request['Year']
+            plot_info = format_request['Plot']
             break
         except:
             print("\nYour word returned no movie results.\n")
             quit()
     print('\nThe related movie title is: "{}" \n\nStarring: {} \n\nFrom the Year: {}.\n'.format(title_info, actor_info, year_info))
-    #return single_info
+    print('Plot: {}'.format(plot_info))
+    #year_info is a string
+    return year_info
 
 
 
@@ -46,12 +49,14 @@ def fetch_requests_year_omdb(word, year):
             title_info = format_request['Title']
             actor_info = format_request['Actors']
             year_info = format_request['Year']
-            print(year_info)
+            plot_info = format_request['Plot']
+            #print(year_info)
             break
         except:
             print("Your movie year returned no extra movie results.\n")
             quit()
     print('\nAnother movie from that year is: "{}" \n\nStarring: {}.\n'.format(title_info, actor_info))
+    print('Plot: {}\n'.format(plot_info))
     #return single_info
     #print(year_info)
     #return year_info
